@@ -1,2 +1,0 @@
-# thaproject
-tha-bdproj
