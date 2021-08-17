@@ -216,21 +216,6 @@ body {
   transform: translate(700px, 300px);
 }
 
-.fill {
-  font-size: 12px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  padding: 11px 30px 12px;
-  outline: 0;
-  border: 1px solid black;
-  cursor: pointer;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0);
-  text-decoration: none;
-  top:-200px;
-  left: -300px;
-}
-
 .team-page{
   position: absolute;
   top: 12px;
