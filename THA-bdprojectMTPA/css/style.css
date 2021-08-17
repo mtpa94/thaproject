@@ -214,22 +214,28 @@ body {
   width: 500px;
   height: 500px;
   transform: translate(700px, 300px);
-  /* opacity: 1; */
 }
 
-.btn{
-  position: absolute;
-  top:800px;
-  left: 50px;
-  border-style: double;
-  color: #993366;
-  background-color:darksalmon;
-  box-shadow: black;
-  font-weight: bold;
-}
-
-.btn a{
+.fill {
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 11px 30px 12px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
   text-decoration: none;
+  top:-200px;
+  left: -300px;
+}
+
+.team-page{
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: bisque;
 }
 
 @media (max-width: 1600px) {
@@ -277,12 +283,6 @@ body {
     height: 300px;
     top: -100px;
     left: 550px;
-  }
-
-  .btn{
-    position: absolute;
-    top:580px;
-    left: 50px;
   }
 
   .card-container .details{
